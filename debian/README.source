@@ -1,0 +1,10 @@
+hfi1-firmware for Debian
+------------------------
+
+The tarball is created merging the file for un-rpmping both tarballs
+hfi1-firmware-$VERSION.noarch.rpm and hfi1-firmware_debug-$VERSION.noarch.rpm.
+All the files from from usr/share/doc/... were copied into the tree directory
+and later installed using dh.
+
+ -- Ana Guerrero <ana-externe.guerrero@edf.fr>  Tue, 30 Aug 2016 17:40:21 +0200
+

@@ -1,9 +1,15 @@
-hfi1-firmware (0.9-73-2ifs+c9u1) calibre9; urgency=medium
+hfi1-firmware (0.9-73-4ifs+deb9) UNRELEASED; urgency=medium
 
-  * Build for Calibre9
-  * Add a debian/gbp.conf file
+  * Branch for stretch.
 
- -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Tue, 19 Dec 2017 14:56:00 +0100
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 02 Feb 2018 16:07:33 -0600
+
+hfi1-firmware (0.9-73-3ifs) UNRELEASED; urgency=medium
+
+  * Import hfi1-firmware 0.9-73 from IFS RHEL73 10.6.0.0.134 upstream.
+  * Using git packaging and pristine-tar.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Tue, 17 Oct 2017 12:23:30 -0500
 
 hfi1-firmware (0.9-73-2ifs) UNRELEASED; urgency=medium
 

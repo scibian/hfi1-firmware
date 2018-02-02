@@ -2,12 +2,13 @@ Source: hfi1-firmware
 Maintainer: Brian T. Smith <bsmith@systemfabricworks.com>
 Section: non-free/misc
 Priority: extra
-Standards-Version: 3.9.6
-Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: http://www.intel.com
+Build-Depends: debhelper (>= 10),
 
 Package: hfi1-firmware
 Architecture: any
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
 Description: Firmware for Gen1 HFI
  This package contains the firmware required by the Gen1 HFI driver.
  Usage of the firmware is subject to the terms and conditions contained
@@ -16,10 +17,10 @@ Description: Firmware for Gen1 HFI
 Package: hfi1-firmware-dbg
 Architecture: any
 Section: non-free/debug
-Depends: ${misc:Depends},
- hfi1-firmware (=${binary:Version})
-Conflicts: hfi1-firmware-debug
-Replaces: hfi1-firmware-debug
+Depends: hfi1-firmware (=${binary:Version}),
+         ${misc:Depends},
+Conflicts: hfi1-firmware-debug,
+Replaces: hfi1-firmware-debug,
 Description: Firmware for Gen1 HFI (debug)
  This package contains the debug firmware required by the Gen1 HFI driver.
  Usage of the firmware is subject to the terms and conditions contained

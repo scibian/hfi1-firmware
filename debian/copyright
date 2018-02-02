@@ -7,25 +7,25 @@ Copyright: 2015-2017 Intel Corporation.
 License: Proprietary-Intel
 
 Files: debian/*
-Copyright: 2016-2017 System Fabric Works, Inc.
+Copyright: 2016-2018 System Fabric Works, Inc.
 License: GPL-2 or BSD-3-clause
 
 License: Proprietary-Intel
- Copyright (c) 2015, Intel Corporation. 
- All rights reserved. 
+ Copyright (c) 2015, Intel Corporation.
+ All rights reserved.
  .
  Redistribution.
  .
  Redistribution and use in binary form, without modification, are permitted
- provided that the following conditions are met: 
+ provided that the following conditions are met:
  *    Redistributions must reproduce the above copyright notice and the
       following disclaimer in the documentation and/or other materials provided
-      with the distribution. 
+      with the distribution.
  *    Neither the name of Intel Corporation nor the names of its suppliers may
       be used to endorse or promote products derived from this software without
-      specific prior written permission. 
+      specific prior written permission.
  *     No reverse engineering, decompilation, or disassembly of this software is
-      permitted. 
+      permitted.
  .
  Limited patent license.
  .
@@ -34,7 +34,8 @@ License: Proprietary-Intel
  import, offer to sell and sell (“Utilize”) this software, but solely to the
  extent that any such patent is necessary to Utilize the software alone. The
  patent license shall not apply to any combinations which include this software.
- No hardware per se is licensed hereunder. 
+ No hardware per se is licensed hereunder.
+ .
  .
  DISCLAIMER.
  .
@@ -47,7 +48,7 @@ License: Proprietary-Intel
  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
  ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
- SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  .
  .
  INTEL SOFTWARE LICENSE AGREEMENT
@@ -389,8 +390,8 @@ License: GPL-2
  `/usr/share/common-licenses/GPL-2'.
 
 License: BSD-3-Clause
- Copyright (c) 2015 Intel Corporation. All rights reserved. 
- Copyright (c) 2016 System Fabric Works. All rights reserved.
+ Copyright (c) 2015 Intel Corporation. All rights reserved.
+ Copyright (c) 2016-2018 System Fabric Works. All rights reserved.
  .
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
@@ -417,4 +418,3 @@ License: BSD-3-Clause
  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
-

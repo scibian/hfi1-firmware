@@ -1,10 +1,16 @@
-hfi1-firmware for Debian
-------------------------
+# intel-deb-hfi1-firmware
 
-The tarball is created merging the file for un-rpmping both tarballs
-hfi1-firmware-$VERSION.noarch.rpm and hfi1-firmware_debug-$VERSION.noarch.rpm.
-All the files from from usr/share/doc/... were copied into the tree directory
-and later installed using dh.
+## Upstream Source
 
- -- Ana Guerrero <ana-externe.guerrero@edf.fr>  Tue, 30 Aug 2016 17:40:21 +0200
+Intel delivers hfi1 firmware as binary RPMs. In order to create the upstream
+source for Debian, the RPMs are extracted into a filesystem and tarred up.
+
+```
+# mkdir hfi1-firmware-0.9
+# cd hfi1-firmware-0.9
+# rpm2cpio ~/hfi1-firmware-0.9-59.noarch.rpm | cpio -ivd
+# rpm2cpio ~/hfi1-firmware_debug-0.9-59.noarch.rpm | cpio -ivd
+# cd ..
+# tar czf hfi1-firmware_0.9-50.orig.tar.gz hfi1-firmware-0.9
+```
 

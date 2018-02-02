@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 #
-# Copyright (c)2016 System Fabric Works, Inc. All Rights Reserved,
-#
 
 # uncomment for verbose build
 #export DH_VERBOSE = 1

@@ -1,3 +1,9 @@
+hfi1-firmware (0.9-73-4ifs+deb9sci9u1) scibian9; urgency=medium
+
+  * Scibian9 Release.
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Tue, 17 Apr 2018 18:26:42 +0200
+
 hfi1-firmware (0.9-73-4ifs+deb9) UNRELEASED; urgency=medium
 
   * Branch for stretch.

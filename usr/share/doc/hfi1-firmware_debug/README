@@ -16,48 +16,40 @@ Sharepoint file	name					RPM file name
 + sharepoint comment
 ---------------------------------------------------	---------------------
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 08/10/2017 5:07 PM
-+ v1.24.0 of dc8051 firmware, opa-10_5 production-signed
++ 08/10/2017 5:10 PM
++ v1.24.0 of dc8051 firmware, HEAD(stl1-branch) production-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 08/07/2017 3:50 PM
-+ v1.24.0 of dc8051 firmware, opa-10_5 debug-signed
++ 08/07/2017 3:30 PM
++ v1.24.0 of dc8051 firmware, HEAD(stl1-branch) debug-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 07/28/2017 2:13 PM
-+ v1.23.0 of dc8051 firmware, opa-10_5 production-signed
++ 07/28/2017 2:17 PM
++ v1.23.0 of dc8051 firmware, HEAD(stl1-branch) production-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 07/26/2017 4:50 PM
-+ v1.23.0 of dc8051 firmware, opa-10_5 debug-signed
++ 07/26/2017 4:54 PM
++ v1.23.0 of dc8051 firmware, HEAD(stl1-branch) debug-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 07/14/2017 2:05 PM
-+ v1.20.3 of dc8051 firmware, opa-10_5 production-signed
++ 07/14/2017 2:00 PM
++ v1.20.3 of dc8051 firmware, HEAD(stl1-branch) production-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 07/12/2017 2:20 PM
-+ v1.20.3 of dc8051 firmware, opa-10_5 debug-signed
++ 07/12/2017 2:05 PM
++ v1.20.3 of dc8051 firmware, HEAD(stl1-branch) debug-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
 + 07/10/2017 8:24 PM
-+ v1.19.18 of dc8051 firmware, opa-10_5 production-signed
++ v1.19.18 of dc8051 firmware, HEAD(stl1-branch) production-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 06/30/2017 10:50 AM
-+ v1.19.18 of dc8051 firmware, opa-10_5 debug-signed
++ 06/30/2017 11:10 AM
++ v1.19.18 of dc8051 firmware, HEAD(stl1-branch) debug-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
 + 06/28/2017 6:00 PM
-+ v1.19.17 of dc8051 firmware, opa-10_5 debug-signed
-
-dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 06/13/2017 2:00 PM
-+ v0.47 of dc8051 firmware, opa-10_5 production-signed
-
-dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
-+ 06/13/2017 2:00 PM
-+ v0.47 of dc8051 firmware, opa-10_5 debug-signed
++ v1.19.17 of dc8051 firmware, HEAD(stl1-branch) debug-signed
 
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
 + 05/16/2017 4:00 PM

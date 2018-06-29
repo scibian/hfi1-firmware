@@ -1,3 +1,9 @@
+hfi1-firmware (0.9-78-1ifs+deb9) UNRELEASED; urgency=medium
+
+  * Import hfi1-firmware 0.9-78 from IFS RHEL74 10.7.0.0.145 upstream.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 29 Jun 2018 16:01:27 -0500
+
 hfi1-firmware (0.9-73-4ifs+deb9) UNRELEASED; urgency=medium
 
   * Branch for stretch.

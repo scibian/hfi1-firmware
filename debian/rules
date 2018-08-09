@@ -1,5 +1,4 @@
 #!/usr/bin/make -f
-#
 
 # uncomment for verbose build
 #export DH_VERBOSE = 1

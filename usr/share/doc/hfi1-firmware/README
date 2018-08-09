@@ -16,6 +16,26 @@ Sharepoint file	name					RPM file name
 + sharepoint comment
 ---------------------------------------------------	---------------------
 dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
++ 02/28/2018 5:00 PM
++ v1.26.1 of dc8051 firmware, opa-10_7 production-signed
+
+dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
++ 01/29/2018 6:00 PM
++ v1.26.1 of dc8051 firmware, opa-10_7 debug-signed
+
+dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
++ 01/25/2018 3:45 PM
++ v1.26.0 of dc8051 firmware, opa-10_7 debug-signed
+
+dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
++ 12/14/2017 4:50 PM
++ v1.25.16 of dc8051 firmware, opa-10_7 production-signed
+
+dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
++ 11/29/2017 4:50 PM
++ v1.25.16 of dc8051 firmware, HEAD(stl1-branch) debug-signed
+
+dc1.css_mu_r2.signed.bin                                hfi1_dc8051.fw
 + 08/10/2017 5:10 PM
 + v1.24.0 of dc8051 firmware, HEAD(stl1-branch) production-signed
 

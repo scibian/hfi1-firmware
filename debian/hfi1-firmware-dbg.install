@@ -2,4 +2,3 @@ lib/firmware/updates/hfi1_dc8051_d.fw	lib/firmware
 lib/firmware/updates/hfi1_fabric_d.fw	lib/firmware
 lib/firmware/updates/hfi1_pcie_d.fw		lib/firmware
 lib/firmware/updates/hfi1_sbus_d.fw		lib/firmware
-lib/firmware/updates/hfi1_smbus_d.fw	lib/firmware

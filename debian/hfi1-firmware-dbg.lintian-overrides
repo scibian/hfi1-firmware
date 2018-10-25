@@ -1,0 +1,2 @@
+# d/copyright mentions LGPL, but does not specify it
+hfi1-firmware-dbg: copyright-should-refer-to-common-license-file-for-lgpl

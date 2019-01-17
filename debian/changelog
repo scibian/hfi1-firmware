@@ -1,3 +1,9 @@
+hfi1-firmware (0.9-80-1ifs+deb8sci8+opa10.8u1) scibian8+opa10.8; urgency=medium
+
+  * New version hfi1
+
+ -- M'hamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Thu, 17 Jan 2019 14:00:04 +0100
+
 hfi1-firmware (0.9-80-1ifs+deb8) jessie; urgency=medium
 
   * Import hfi1-firmware 0.9-80 from IFS RHEL75 10.8.0.0.204 upstream.

@@ -1,9 +1,11 @@
 Source: hfi1-firmware
-Maintainer: Brian T. Smith <bsmith@systemfabricworks.com>
+Maintainer: Scibian Project <packaging@scibian.org>
 Section: non-free/misc
 Priority: extra
 Standards-Version: 3.9.6
 Homepage: http://www.intel.com
+Vcs-Git: https://github.com/scibian/hfi1-firmware.git
+Vcs-Browser: https://github.com/scibian/hfi1-firmware
 Build-Depends: debhelper (>= 9),
 
 Package: hfi1-firmware

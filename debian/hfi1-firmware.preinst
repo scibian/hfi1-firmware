@@ -11,8 +11,6 @@ if [ upgrade != "$1" ] || dpkg --compare-versions "$2" lt 0.9-73-4ifs+deb9sci9+o
     dpkg-divert --package hfi1-firmware --add --rename \
         --divert /lib/firmware/hfi1_pcie.fw.debian /lib/firmware/hfi1_pcie.fw
     dpkg-divert --package hfi1-firmware --add --rename \
-        --divert /lib/firmware/hfi1_platform.dat.debian /lib/firmware/hfi1_platform.dat
-    dpkg-divert --package hfi1-firmware --add --rename \
         --divert /lib/firmware/hfi1_sbus.fw.debian /lib/firmware/hfi1_sbus.fw
 fi
 #DEBHELPER#

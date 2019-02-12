@@ -21,8 +21,6 @@ remove,*|abort-install,*|disappear,*|*,y)
         dpkg-divert --package hfi1-firmware --remove --rename \
             --divert /lib/firmware/hfi1_pcie.fw.debian /lib/firmware/hfi1_pcie.fw
         dpkg-divert --package hfi1-firmware --remove --rename \
-            --divert /lib/firmware/hfi1_platform.dat.debian /lib/firmware/hfi1_platform.dat
-        dpkg-divert --package hfi1-firmware --remove --rename \
            --divert /lib/firmware/hfi1_sbus.fw.debian /lib/firmware/hfi1_sbus.fw
         ;;
 esac

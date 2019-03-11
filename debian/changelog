@@ -1,3 +1,9 @@
+hfi1-firmware (0.9-84-1ifs+deb9) stretch; urgency=medium
+
+  * Import hfi1-firmware 0.9-84 from IFS RHEL76 10.9.1.0.15 upstream.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Mon, 11 Mar 2019 17:50:28 -0500
+
 hfi1-firmware (0.9-80-1ifs+deb9) stretch; urgency=medium
 
   * Import hfi1-firmware 0.9-80 from IFS RHEL75 10.8.0.0.204 upstream.

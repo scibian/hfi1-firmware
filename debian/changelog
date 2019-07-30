@@ -1,3 +1,9 @@
+hfi1-firmware (0.9-84-1ifs+deb9sci9+opa10.9u1) scibian9+opa10.9; urgency=medium
+
+  * scibian9 release with opa10.9.
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Tue, 30 Jul 2019 14:06:39 +0200
+
 hfi1-firmware (0.9-84-1ifs+deb9) stretch; urgency=medium
 
   * Import hfi1-firmware 0.9-84 from IFS RHEL76 10.9.1.0.15 upstream.

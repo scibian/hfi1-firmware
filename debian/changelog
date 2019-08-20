@@ -1,3 +1,9 @@
+hfi1-firmware (0.9-84-1ifs+deb8) jessie; urgency=medium
+
+  * Import hfi1-firmware 0.9-84 from IFS RHEL76 10.9.1.0.15 upstream.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Thu, 07 Mar 2019 17:24:06 -0600
+
 hfi1-firmware (0.9-80-1ifs+deb8sci8+opa10.8u1) scibian8+opa10.8; urgency=medium
 
   * New version hfi1

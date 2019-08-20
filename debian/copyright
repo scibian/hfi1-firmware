@@ -3,18 +3,14 @@ Upstream-Name: hfi1-firmware
 Source: IntelOPA-IFS from http://www.intel.com
 
 Files: *
-Copyright: 2015-2018 Intel Corporation.
+Copyright: Intel Corporation.
 License: Proprietary-Intel
 
 Files: debian/*
-Copyright: 2016-2018 System Fabric Works, Inc.
+Copyright: 2016-2019 System Fabric Works, Inc.
 License: Proprietary-Intel
 
 License: Proprietary-Intel
- Copyright (c) 2015, Intel Corporation.
- Copyright (c) 2016-2018, System Fabric Works, Inc.
- All rights reserved.
- .
  Redistribution.
  .
  Redistribution and use in binary form, without modification, are permitted

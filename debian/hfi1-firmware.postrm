@@ -1,4 +1,28 @@
 #!/bin/sh
 set -e
 update-initramfs -u
+
+# Firmware can also be provided by firmware-misc-nonfree, divert common files to enable
+# installing more recent versions with this package
+
+losing_diversion=n
+
+if dpkg --compare-versions "$2" lt-nl "0.9-84-1ifs+deb8sci8+opa10.9u2"
+then
+        losing_diversion=y
+fi
+
+case "$1,$losing_diversion" in
+remove,*|abort-install,*|disappear,*|*,y)
+        dpkg-divert --package hfi1-firmware --remove --rename \
+            --divert /lib/firmware/hfi1_dc8051.fw.debian /lib/firmware/hfi1_dc8051.fw
+        dpkg-divert --package hfi1-firmware --remove --rename \
+            --divert /lib/firmware/hfi1_fabric.fw.debian /lib/firmware/hfi1_fabric.fw
+        dpkg-divert --package hfi1-firmware --remove --rename \
+            --divert /lib/firmware/hfi1_pcie.fw.debian /lib/firmware/hfi1_pcie.fw
+        dpkg-divert --package hfi1-firmware --remove --rename \
+           --divert /lib/firmware/hfi1_sbus.fw.debian /lib/firmware/hfi1_sbus.fw
+        ;;
+esac
+
 #DEBHELPER#
